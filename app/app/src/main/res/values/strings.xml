@@ -1,0 +1,123 @@
+<resources>
+    <!-- APP -->
+    <string name="app_name" translatable="false">CareConnect</string>
+
+    <!-- GENERAL -->
+    <string name="cc_go_back_button_text">Ga Terug</string>
+
+    <!-- HOME SCREEN -->
+    <string name="cc_home_emergency_button_text">STUUR NOODMELDING</string>
+
+    <!-- NAVIGATION ELEMENTS -->
+    <string name="cc_nav_start">StartScreen</string>
+    <string name="cc_nav_medication">MedicationScreen</string>
+    <string name="cc_nav_todo">TaskScreen</string>
+    <string name="cc_nav_carer">CarerScreen</string>
+
+        <!-- TASK NAVIGATION ELEMENTS -->
+    <string name="cc_task_overview">TaskScreen</string>
+    <string name="cc_task_edit">EditTaskScreen</string>
+
+    <!-- SHOPPING LIST NAVIGATION ELEMENTS -->
+    <string name="cc_shopl_overview">ShoppingListScreen</string>
+
+    <!-- CATEGORY TITLES -->
+    <string name="cc_home_cat_events_title">Gebeurtenissen vandaag</string>
+    <string name="cc_home_cat_nav_title">Navigatie</string>
+    <string name="cc_task_cat_today_title">Vandaag</string>
+    <string name="cc_task_cat_future_title">Later</string>
+    <string name="cc_taskedit_cat_date_title">wijzig de uitvoeringsdatum</string>
+    <string name="cc_taskedit_cat_shoppinglist_title">boodschappenlijst</string>
+
+    <!-- ALERTS -->
+    <string name="cc_alert_confirmation_button_text">Ja</string>
+    <string name="cc_alert_dismiss_button_text">Nee</string>
+    <string name="cc_alert_ok_button_text">Oké</string>
+
+    <!-- ALERTS CONTENTS -->
+    <string name="cc_alert_emergency_button_title">Noodmelding versturen</string>
+    <string name="cc_alert_emergency_button_text">Wij versturen een noodmelding naar uw verzorger(s). Wilt u dit zeker doen?</string>
+
+    <string name="cc_home_event_format"></string>
+
+    <!-- SCREEN TITLES -->
+    <string name="cc_medication_screen_title">Mijn Medicatie</string>
+    <string name="cc_todo_screen_title">Taken</string>
+    <string name="cc_carer_screen_title">Mijn Verzorger(s)</string>
+    <string name="cc_shoppinglist_screen_title">%s</string>
+    <string name="cc_edit_task_screen_title">%s: %s</string>
+    <string name="cc_edit_shopl_screen_title">LIJST VOOR: %s</string>
+    <string name="cc_configure_shoppinglist_screen_title">%s</string>
+
+
+    <!-- MEDICATION SCREEN -->
+    <string name="cc_medication_take_all_button_text">MARKEER ALLES ALS INGENOMEN</string>
+    <string name="cc_medication_no_content_screen_text">ER IS GEEN MEDICATIE VOOR VANDAAG</string>
+
+    <!-- TASK SCREEN -->
+    <string name="cc_task_newtask_button_text">NIEUWE TAAK PLANNEN</string>
+    <string name="cc_taskedit_savetask_button_text">OPSLAAN</string>
+    <string name="cc_task_no_content_today_screen_text">ER ZIJN GEEN TAKEN VOOR VANDAAG</string>
+    <string name="cc_task_no_content_future_screen_text">ER ZIJN GEEN TAKEN VOOR LATER</string>
+
+    <!-- EDIT TASK SCREEN -->
+    <string name="cc_todo_edittask_button_text">OPSLAAN</string>
+
+    <!-- EDIT SHOPPING LIST SCREEN -->
+    <string name="cc_taskedit_shopl_addproduct_button_text">PRODUCT TOEVOEGEN</string>
+    <string name="cc_taskedit_shopl_save_text">OPSLAAN</string>
+
+
+    <!-- ADD PRODUCT SCREEN -->
+    <string name="cc_addproduct">AddProductScreen</string>
+    <string name="cc_addproduct_screen_title">Product Toevoegen</string>
+    <string name="cc_addproduct_form_productname_label">Naam van product</string>
+    <string name="cc_addproduct_form_productdesc_label">Extra Informatie</string>
+    <string name="cc_take_photo_button">Maak Foto</string>
+    <string name="cc_camera">CameraView</string>
+
+    <!-- CARER SCREEN -->
+    <string name="cc_carer">CarerScreen</string>
+    <string name="cc_carer_actionbutton_call">Bellen</string>
+    <string name="cc_carer_actionbutton_visit">Bezoek</string>
+    <string name="cc_carer_actionbutton_sos">Kom aub!</string>
+    <string name="cc_carer_enablement_title">BIJ NOODGEVAL VERWITTIG:</string>
+    <string name="cc_carer_sos_text">Iemand extra? Vraag uw verzorger!</string>
+    <string name="cc_carer_sos_112">Bij levensgevaar, bel 112!</string>
+    <string name="cc_taskedit_shopl_make_picture">MAAK FOTO</string>
+    <string name="cc_home_events_no_content_text">GEEN GEBEURTENISSEN VANDAAG</string>
+
+
+    <!-- FUNCTIONALITIES -->
+    <string name="cc_emergency_message_text">NOODMELDING! Ik %s ben in nood! \nKan je mij komen helpen? Ik kon nog net mijn knop indrukken op de APP.</string>
+    <string name="cc_emergency_message_toast_success">Noodmelding Versturen...</string>
+    <string name="cc_emergency_message_toast_denied">FOUT! Kan niet versturen...</string>
+
+    <string name="cc_carer_action_accompany_text_message">Hallo %s! Het is al een tijdje geleden dat ik je zag, kom je binnenkort nog eens langs? Dat lijkt me zeer leuk! Tot binnenkort. Groetjes %s</string>
+    <string name="cc_accompany_message_toast_success">Bericht Versturen...</string>
+    <string name="cc_accompany_message_toast_denied">FOUT! Kan niet versturen...</string>
+
+    <string name="cc_carer_action_urgent_text_message">DRINGEND! Ik heb je dringend nodig, kan je zo snel mogelijk langskomen a.u.b.? Alvast bedankt! Groeten %s</string>
+    <string name="cc_urgent_message_toast_success">Bericht Versturen...</string>
+    <string name="cc_urgent_message_toast_denied">FOUT! Kan niet versturen...</string>
+    <string name="cc_alert_medication_mark_all_title">MARKEREN ALS ALLES INGENOMEN</string>
+    <string name="cc_alert_medication_mark_all_text">Bent u zeker dat u alle medicatie heeft ingenomen?</string>
+    <string name="cc_alert_medication_mark_single_title">MARKEREN ALS INGENOMEN</string>
+    <string name="cc_alert_medication_mark_single_text">Bent u zeker dat u %s heeft ingenomen?</string>
+    <string name="cc_toast_alert_medication_all_taken_text">Alles gemarkeerd als ingenomen</string>
+    <string name="cc_toast_alert_medication_single_taken_text">Gemarkeerd als ingenomen</string>
+    <string name="cc_alert_shoppinglist_remove_product">VERWIJDER PRODUCT</string>
+    <string name="cc_alert_shoppinglist_remove_product_text">Bent u zeker dat u \"%s\" wilt verwijderen?</string>
+    <string name="cc_toast_alert_shoppinglist_removed_product_text">"Product verwijderd "</string>
+    <string name="cc_toast_alert_shoppinglist_added_product_text">%s toegevoegd</string>
+    <string name="cc_shoppinglist_no_items_text">GEEN PRODUCTEN OP HET LISJTJE\n</string>
+    <string name="cc_camera_navigation_back">Ga terug</string>
+
+    <!-- NOTIFICATIONS -->
+    <string name="cc_notification_channel_name">CareConnect Medicatie Melding</string>
+    <string name="cc_notification_name">CareConnect - Medicatie</string>
+    <string name="cc_notification_channel_desc">Notificaties voor medicatie herinneringen</string>
+    <string name="cc_notification_message_30m">OVER 30min: %s innemen.</string>
+    <string name="cc_notification_message_15m">OVER 15min: %s innemen.</string>
+    <string name="cc_notification_message_5m">OVER 5min: %s innemen.</string>
+</resources>
